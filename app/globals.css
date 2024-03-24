@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+    position: relative;
+    color: white;
+    overflow-x: hidden;
+    width: 100vw;
+    background-color: black;
+    animation: bg 2.5s ease-in-out 1;
+}
+body::before{
+    content: '';
+    background-image: url("https://e0.pxfuel.com/wallpapers/846/344/desktop-wallpaper-portfolio.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: absolute;
+    inset: 0;
+    opacity: 0.45;
+}
+@keyframes bg {
+    from{
+        filter: blur(7px);
+    }
+    to{
+        filter: blur(0px);
+    }
+}
+.outer{
+    overflow-x: hidden;
+}

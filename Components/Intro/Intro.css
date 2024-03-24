@@ -1,0 +1,134 @@
+.intro {
+  display: flex;
+  height: calc(100vh - 0vh);
+  background: none;
+  max-width: 64rem;
+  width: 100vw;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  isolation: isolate;
+  align-items: center;
+  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  margin-top: 2.5rem;
+}
+.content {
+  width: 66.66%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 1.5rem;
+}
+.hello {
+  font-size: 1.5rem /* 24px */;
+  line-height: 2rem /* 32px */;
+}
+.me {
+  position: relative;
+  animation: float 3s ease-in-out infinite;
+  box-shadow: 0px 0px 30px 2px #0c829cbf;
+  border-radius: 9999px;
+  width: 100%;
+  height: 100%;
+}
+.po {
+  width: 80%;
+  font-size: 1rem/* 16px */;
+  line-height: 1.5rem/* 24px */;
+}
+.ku {
+  font-size: 3rem /* 48px */;
+  line-height: 1;
+  width: 100%;
+}
+.hj {
+  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+}
+.hi{
+    color: rgb(250 204 21);
+    font-weight: 700;
+}
+.ii{
+    width: 33.3333%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1rem;
+}
+@keyframes float {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(0, -10px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+@media (max-width: 795px) {
+  .me {
+    width: 90%;
+    height: 90%;
+  }
+  .ku {
+    font-size: 2.5rem;
+  }
+}
+@media (max-width: 668px) {
+  .me {
+    width: 100%;
+    height: 100%;
+  }
+}
+@media (max-width: 600px) {
+  .intro {
+    flex-direction: column-reverse;
+  }
+  .ku {
+    font-size: 2.2rem;
+  }
+  .ii {
+    justify-content: center;
+    margin-right: 0rem;
+    width: 100%;
+    height: 40%;
+  }
+  .content {
+    height: 50%;
+    justify-content: start;
+    width: 70%;
+    margin-left: 1.5rem;
+  }
+  .me {
+    width: 5em;
+    height: 5em;
+  }
+}
+@media (max-width: 552px) {
+  .ku {
+    font-size: 1.8rem;
+  }
+}
+@media (max-width: 453px) {
+  .ku {
+    font-size: 1.6rem;
+  }
+  .hello {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 402px) {
+  .ku {
+    font-size: 1.4rem;
+  }
+  .hello {
+    font-size: 1rem;
+  }
+  .me {
+    width: 4em;
+    height: 4em;
+  }
+  .po {
+    font-size: 0.9rem;
+  }
+}
