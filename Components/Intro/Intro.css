@@ -119,14 +119,14 @@
 }
 @media (max-width: 402px) {
   .ku {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
   }
   .hello {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
   .me {
-    width: 4em;
-    height: 4em;
+    width: 4.7em;
+    height: 4.7em;
   }
   .po {
     font-size: 0.9rem;
