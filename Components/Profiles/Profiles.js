@@ -51,7 +51,7 @@ const Profiles = () => {
           </div>
           <div className="jj">
             <div className="ji">
-              {text}<Cursor/>
+                  You Can Connect With Me On...
             </div>
           </div>
         </div>
